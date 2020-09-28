@@ -1,0 +1,10 @@
+.animated {
+	fill: #5a88b7;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}

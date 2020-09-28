@@ -1,0 +1,11 @@
+.main {
+	background-color: #05070E;
+	color: #FFF;
+	height: 100vh;
+}
+
+.hearts-container {
+	height: 70vh;
+	position: relative;
+	overflow: hidden;
+}

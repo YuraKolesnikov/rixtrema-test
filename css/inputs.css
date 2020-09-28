@@ -1,0 +1,26 @@
+.input-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.text-input {
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #0080fe;
+	color: #FFF;
+}
+
+.text-input + label {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.text-alert {
+	color: tomato;
+	margin: 0;
+}

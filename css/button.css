@@ -1,0 +1,35 @@
+.button {
+	color: #1f5083;
+	border: 1px solid  #1f5083;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: transparent;
+	font-weight: bold;
+	padding: 20px;
+	margin: auto;
+	cursor: pointer;
+	user-select: none;
+	transition: opacity .35s ease-in-out;
+}
+
+.button--blocked {
+	pointer-events: none;
+	opacity: .5;
+	cursor: not-allowed;
+}
+
+.button:active {
+	background: rgba(#1f5083, .1)
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
